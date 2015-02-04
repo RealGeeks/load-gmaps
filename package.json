@@ -1,0 +1,34 @@
+{
+  "name": "load-gmaps",
+  "version": "0.1.0",
+  "description": "Load the Google Maps script asynchronously.",
+  "scripts": {
+    "test": "jshint index.js test/index.js && jscs index.js test/index.js && testem ci",
+    "watch": "testem -g"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RealGeeks/load-gmaps.git"
+  },
+  "author": "Sorin Iclanzan <sorin@iclanzan.com> (http://iclanzan.com/)",
+  "bugs": {
+    "url": "https://github.com/RealGeeks/load-gmaps/issues"
+  },
+  "homepage": "https://github.com/RealGeeks/load-gmaps",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "es6-promise": "^2.0.1",
+    "jscs": "^1.10.0",
+    "jshint": "^2.6.0",
+    "tape": "^3.4.0",
+    "testem": "^0.6.33"
+  },
+  "dependencies": {
+    "query-string": "^1.0.0",
+    "scriptload": "^0.1.0"
+  }
+}
