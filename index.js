@@ -30,7 +30,7 @@ function loadGmaps() {
 }
 
 loadGmaps.url = 'https://maps.googleapis.com/maps/api/js';
-loadGmaps.version = '3.17';
+loadGmaps.version = '3.19';
 loadGmaps.callbackName = 'mapLoaded';
 
 module.exports = loadGmaps;

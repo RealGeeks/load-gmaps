@@ -10,7 +10,7 @@ Make sure to include a [Promise](https://developer.mozilla.org/en-US/docs/Web/Ja
 var loadGmaps = require('load-gmaps');
 
 // Set version to load (Optional).
-loadGmaps.version = '3.17';
+loadGmaps.version = '3.19';
 
 loadGmaps().then(function (mapsApi) {
   // Create a map.
