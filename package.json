@@ -1,5 +1,5 @@
 {
-  "name": "load-gmaps",
+  "name": "@realgeeks/load-gmaps",
   "version": "0.1.4",
   "description": "Load the Google Maps script asynchronously.",
   "scripts": {
