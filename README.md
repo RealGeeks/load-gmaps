@@ -12,8 +12,17 @@ var loadGmaps = require('load-gmaps');
 // Set version to load (Optional).
 loadGmaps.version = '3.19';
 
+// If using Enterprise Google Maps, set client and channel
+
+loadGmaps.client = 'test';
+loadGmaps.channel = 'test';
+
 loadGmaps().then(function (mapsApi) {
   // Create a map.
   var map = new mapsApi.Map(/* options */);
 });
 ```
+
+## Changelog
+
+08/17/18 - v0.1.2 - Added support for client and channel

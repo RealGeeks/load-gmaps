@@ -15,6 +15,14 @@ function loadApi(resolve) {
     query.key = loadGmaps.key;
   }
 
+  if (loadGmaps.client) {
+    query.client = loadGmaps.client;
+  }
+
+  if (loadGmaps.channel) {
+    query.channel = loadGmaps.channel;
+  }
+
   window[loadGmaps.callbackName] = function () {
     // IE8 throws an error if we try to delete window properties.
     window[loadGmaps.callbackName] = undefined;

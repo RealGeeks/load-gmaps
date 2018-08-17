@@ -1,6 +1,6 @@
 {
   "name": "load-gmaps",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Load the Google Maps script asynchronously.",
   "scripts": {
     "test": "jshint index.js test/index.js && jscs index.js test/index.js && testem ci",
