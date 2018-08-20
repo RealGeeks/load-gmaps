@@ -1,6 +1,6 @@
 {
   "name": "@realgeeks/load-gmaps",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Load the Google Maps script asynchronously.",
   "scripts": {
     "test": "echo 'no tests found' && exit 0",
