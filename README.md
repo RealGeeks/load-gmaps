@@ -26,7 +26,9 @@ loadGmaps().then(function (mapsApi) {
 ## Changelog
 
 08/20/18 - v0.1.6 - Updated default API version to weekly
+
 08/17/18 - v0.1.5 - Same as 0.1.2 but published to @realgeeks/load-gmaps
+
 08/17/18 - v0.1.2 - Added support for client and channel
 
 ## 🍴💥
