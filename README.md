@@ -29,7 +29,7 @@ loadGmaps().then(function (mapsApi) {
 08/17/18 - v0.1.5 - Same as 0.1.2 but published to @realgeeks/load-gmaps
 08/17/18 - v0.1.2 - Added support for client and channel
 
-## 🍴
+## 🍴💥
 
 The load-gmaps repo was forked to @realgeeks/load-gmaps because load-gmaps exists in the RealGeeks GitHub org,
 but was not published to npm by @realgeeks.
