@@ -1,7 +1,7 @@
 /* global google */
 'use strict';
 
-var scriptLoad = require('scriptload');
+var scriptLoad = require('@realgeeks/scriptload');
 var qs = require('query-string');
 var mapsPromise;
 
